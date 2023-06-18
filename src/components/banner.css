@@ -1,0 +1,114 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img-div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img-div img{
+    width: 70%;
+}
+
+.banner-content-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5pc;
+    
+}
+.banner-content-div h4{
+    font-size: 2rem;
+}
+
+.btns{
+    display: flex;
+    gap: 1pc;
+}
+
+.banner-content-div button{
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #121212;
+    font-weight: 800;
+    text-align: center;
+}
+.banner-content-div button:hover{
+    background-color: #E3963E;
+    color: #fff;
+}
+
+#hireme-btn{
+     background-color: #E3963E;
+     color: #fff;
+}
+#hireme-btn:hover{
+    background-color: #fff;
+    color: #121212;
+}
+
+.fa-whatsapp{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+
+  
+  .typewriter h1{
+    color: #E3963E;
+    font-family: 'Fira Code', monospace;
+    font-weight: 800;
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 290px;
+    animation: type 3s steps(40,end) forwards infinite;
+  }
+  
+  @keyframes shring-animation {
+    0% {
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    1% {
+      background-position: 0 0;
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+    50% {
+      background-position: 150px 0;
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+    100% {
+      background-position: 400px 0;
+      opacity: 1;
+      border-right: 1px solid orange;
+    }
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    1%, 99%{
+      border-right: 1px solid orange;
+    }
+    100%{
+      border-right: none;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
